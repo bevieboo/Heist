@@ -13,9 +13,8 @@ var gamePlay = {
 console.log(gamePlay.level1);
 
 // script/timer.js
+// Display numbers on document in sequence.
 beginTimer();
-
-
 
 var displayNumber = '';
 var playerInput = [];

@@ -15,6 +15,7 @@ function handleTimer() {
     if (i <= gamePlay.level1.length) {
     } else {
       clearInterval(timer);
+      $('#display-num').empty();
     }
   }, 3000); // Function is running every 3 seconds.
 }
